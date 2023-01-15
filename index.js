@@ -1,27 +1,3 @@
-// select the form element
-const form = document.querySelector('form');
-
-// listen for the submit event
-form.addEventListener('submit', event => {
-  event.preventDefault();
-
-  // get the form data
-  const formData = new FormData(form);
-
-  // use the Fetch API to send the data to a PHP script
-  fetch('send-email.php', {
-    method: 'POST',
-    body: formData
-  })
-    .then(response => response.text())
-    .then(result => {
-      console.log(result);
-    })
-    .catch(error => {
-      console.error(error);
-    });
-});
-
 
 
 
