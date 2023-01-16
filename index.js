@@ -1,3 +1,58 @@
+const testimonials = document.querySelectorAll(".testimonial");
+const arrows = document.querySelectorAll(".arrow");
+let current = 0;
+
+function reset() {
+  for (let i = 0; i < testimonials.length; i++) {
+    testimonials[i].classList.remove("active");
+  }
+}
+
+function startSlide() {
+  reset();
+  testimonials[0].classList.add("active");
+}
+
+function slideLeft() {
+    reset();
+    current--;
+    if (current < 0) {
+      current = testimonials.length - 1;
+    }
+    testimonials[current].classList.add("active");
+  }
+
+function slideRight() {
+    reset();
+    current++;
+    if (current === testimonials.length) {
+      current = 0;
+    }
+    testimonials[current].classList.add("active");
+  }
+
+let slideInterval = setInterval(slideRight, 5000);
+
+
+// Left arrow click
+arrows[0].addEventListener("click", function() {
+    clearInterval(slideInterval);
+    if (current === 0) {
+      current = testimonials.length;
+    }
+    slideLeft();
+  });
+
+// Right arrow click
+arrows[1].addEventListener("click", function() {
+    clearInterval(slideInterval);
+    if (current === testimonials.length - 1) {
+      current = -1;
+    }
+    slideRight();
+  });
+
+startSlide();
 
 
 
