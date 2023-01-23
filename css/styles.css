@@ -176,6 +176,23 @@ color: #3f5459;
   .ll-logo {
     width: 20%;
   }
+
+  .thank-you-div {
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+  }
+
+  .thank-you {
+    margin: 0;
+    color: black;
+  }
   
 .main-buttons-div {
   display: flex;
