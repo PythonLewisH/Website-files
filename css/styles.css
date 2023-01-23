@@ -600,6 +600,10 @@ margin-top: 20px;
     display:none;
     height: 40px;
   }
+
+  .enquiry-height {
+    min-height: 100%;
+  }
   
   
   /* WIDE MONITORS */
@@ -615,7 +619,7 @@ margin-top: 20px;
     }
   
     .gallery {
-      column-count: 2;
+      column-count: 3;
     }
   
   }
@@ -762,7 +766,7 @@ margin-top: 20px;
     }
   
     .gallery {
-      column-count: 3;
+      column-count: 2;
     }
   
   }
@@ -838,6 +842,7 @@ margin-top: 20px;
   /* MOBILE */
   @media (max-width: 576px) {
 
+
     .ll-logo {
       width: 50%;
     }
@@ -912,12 +917,14 @@ margin-top: 20px;
       overflow: hidden;
       margin-left: 0;
     }
+
+
   
   
   /* Gallery Page */
   
     .gallery {
-      column-count: 2;
+      column-count: 1;
     }
   
   
