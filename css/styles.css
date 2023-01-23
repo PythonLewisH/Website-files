@@ -27,6 +27,11 @@ body {
     color: white;
     font-size: 1.25rem;
   }
+
+  h4 {
+    color: #3f5459;
+    font-size: 1.2rem;
+  }
   
   a {
     text-decoration: none;
@@ -37,19 +42,30 @@ body {
   .container-fluid {
     padding: 3% 7%;
   }
+
+  .container-fluid-gallery {
+    padding: 3% 5%;
+  }
   
   
   /* NAVBAR  */
   .navbar {
-    padding: 0.5rem 0 0;
+    padding: 0;
     display: flex;
     /* color: white; */
   }
   
   .nav-item {
-    padding: 0 18px;
+    padding: 8px 18px;
     white-space: nowrap;
     color: black;
+  }
+
+  .nav-item a:hover {
+    /* color: white;
+    background-color: #3f5459;
+    opacity: 0.7; */
+    text-decoration: underline;
   }
   
   .nav-link {
@@ -76,14 +92,52 @@ body {
   }
   
   .navbar-icon-1 {
-    /* color: white; */
+    color: #3f5459;
     font-size: 1.5rem;
     padding-right: 25px;
+  }
+
+  .navbar-phone {
+
+  }
+
+  .navbar-icon-tel {
+    color: #3f5459;
+    font-size: 1.5rem;
+    padding-right: 25px;
+  }
+
+  .navbar-icon-tel:hover {
+    color: #3f5459;
+    text-decoration: none;
+  }
+
+  .navbar-icon-tel1 {
+    display: none;
+    color: #3f5459;
+    font-size: 1.5rem;
+    padding-right: 25px;
+  }
+
+  .navbar-icon-tel1:hover {
+    color: #3f5459;
+    text-decoration: none;
+  }
+
+  .navbar-icon-1:hover {
+color: #3f5459;
   }
   
   .navbar-icon-2 {
     /* color: white; */
     font-size: 1.5rem;
+  }
+
+  .navbar-icon-3 {
+    color: white;
+    font-size: 1.2rem;
+    padding-right: 10px;
+    vertical-align: text-bottom;
   }
   
   .navbar-dark .navbar-toggler-icon {
@@ -96,7 +150,12 @@ body {
   }
   
   .banner {
-    padding-bottom: 10px;
+
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 1;
+    border-bottom: #3f5459 3px solid;
   }
 
   .navbar-logo {
@@ -136,6 +195,7 @@ body {
   font-size: 1.1rem;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+  white-space: nowrap;
 }
 
 .main-buttons:hover {
@@ -143,6 +203,22 @@ body {
   color: #3f5459;
   border: 1px solid #3f5459;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main-buttons i {
+  transition: all 0.2s ease-in-out;
+}
+
+.main-buttons:hover i{
+color: #3f5459;
+}
+
+.main-buttons a {
+  text-decoration: none;
+}
+
+.main-buttons a:hover {
+  text-decoration: none;
 }
 
 
@@ -158,9 +234,6 @@ body {
   
   /* SERVICES SECTION */
 
-.curved {
-  
-}
   
 .services-copy {
     width: 50%;
@@ -168,6 +241,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.services-copy p {
+  text-align: justify;
 }
 
 .lukes-services h3{
@@ -212,10 +289,17 @@ color: black;
     display: flex;
     align-items: center;
   }
+
+  .about-image-holder {
+    width: 80%;
+    margin: 25px auto 0;
+  }
   
   .about-copy {
     align-items: center;
     display: flex;
+    width: 80%;
+    margin: auto;
   }
   
   .about-img {
@@ -228,7 +312,7 @@ color: black;
   }
   
   .card-text {
-    text-align: left;
+    text-align: justify;
     color: #3f5459;
   }
   
@@ -256,6 +340,11 @@ color: black;
     opacity: 0;
     transition: opacity 0.5s ease;
   }
+
+  .testimonial p {
+margin-top: 18px;
+  }
+
   .testimonial.active {
     opacity: 1;
   }
@@ -264,7 +353,7 @@ color: black;
     width: 100%;
     text-align: center;
     position: relative;
-    top: -100px;
+    top: -120px;
   }
   .arrow {
     color: #3f5459;
@@ -272,6 +361,15 @@ color: black;
     border-radius: 50%;
     cursor: pointer;
   }
+
+  .arrow:active {
+    background-color: white;
+  }
+
+
+
+
+
   .arrow.left {
     float: left;
   }
@@ -280,16 +378,23 @@ color: black;
   }
 
   
-  .clients {
+  .clients1 {
     height: fit-content;
+    text-align: right;
+  }
+
+  .clients2 {
+    height: fit-content;
+    text-align: left;
   }
 
 
   .testimonial-photo {
-    height: 50%;
-    width: 50%;
+    height: 35%;
+    width: 35%;
     aspect-ratio: 3/2;
     object-fit: contain;
+    margin: 0 50px;
   }
   
   .dark-title {
@@ -334,7 +439,7 @@ color: black;
   border: none;
   border-radius: 15px;
   cursor: pointer;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin: 20px;
   width: 60%;
   font-size: 1.1rem;
@@ -345,7 +450,7 @@ color: black;
 .lukes-button:hover {
   background-color:white;
   color: #3f5459;
-  border: 1px solid #3f5459;
+  /* border: 1px solid #3f5459; */
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -384,19 +489,13 @@ color: black;
     margin-bottom:25px;
   }
   
-  .contact-info {
-    text-align: left;
-    vertical-align: top;
-    font-weight: 400;
-  }
-  
   .hover-text {
     margin-left: 5px;
   }
   
   .hover-text:hover {
     text-decoration: underline;
-    color: white;
+    color: #3f5459;
   }
   
   .map {
@@ -434,19 +533,28 @@ margin-top: 20px;
   /* GALLERY PAGE */
   
   .gallery {
-    column-count: 4;
-    column-gap: 0;
+    column-count: 2;
+    column-gap: 50px;
   }
   
   .image-container {
     position: relative;
+    overflow: hidden;
+    margin: 0 0 50px;
+    border-radius: 15px;
   }
   
   .gallery-img {
-    width: 100% !important;
-    height: auto !important;
+    max-width: 100% !important;
+    max-height: auto !important;
     cursor: pointer;
-    border: 3px solid white;
+    /* border: 15px solid white; */
+    overflow: hidden;
+  }
+
+  .gallery-img:hover {
+  transition: transform 1s ease;
+  transform: scale(1.2);
   }
   
   #lightbox {
@@ -507,15 +615,45 @@ margin-top: 20px;
     }
   
     .gallery {
-      column-count: 4;
+      column-count: 2;
     }
   
   }
+
   
-  
+  @media (max-width: 1050px) {
+    .navbar-icon-tel{
+      display: none;
+    }
+
+    .navbar-icon-tel1 {
+      display: contents;
+    }
+  }
   
   /*  TABLET */
   @media (max-width: 991px) {
+
+    .ll-logo {
+      width: 30%;
+    }
+
+    .navbar-icon-1 {
+      padding-right: 50px;
+      padding-bottom: 25px;
+  }
+
+  .main-buttons {
+    width: 30%;
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  .navbar-phone {
+    padding-left: 50px;
+  }
 
     .navbar>.container-fluid {
       display: flex;
@@ -530,9 +668,6 @@ margin-top: 20px;
       margin-top: 10px;
     }
   
-    .top-section {
-      height: 300px;
-    }
   
     /* ABOUT SECTION */
     .bio {
@@ -552,17 +687,31 @@ margin-top: 20px;
   
     /* TESTIMONIALS SECTION */
 
+    .clients1 {
+      text-align: center;
+    }
 
+    .clients2 {
+      text-align: center;
+    }
 
 
 
     
     .testimonial-photo {
-      height: 50%;
-      width: 50%;
-      margin-bottom: 20px;
+      margin-bottom: 0;
       aspect-ratio: 3/2;
       object-fit: contain;
+    }
+
+
+    .arrows {
+      top: -170px;
+    }
+
+    .testimonial-container {
+      width: 70%;
+      margin: 50px auto 250px;
     }
   
   
@@ -630,6 +779,57 @@ margin-top: 20px;
       max-width: 540px;
       margin: 40px 10%;
     }
+
+    .main-buttons {
+      width: 35%;
+    }
+
+    .ll-logo {
+      margin-bottom: 25px;
+    }
+
+.lukes-services {
+  flex-direction: column;
+}
+
+.lukes-services-rev {
+  flex-direction: column;
+}
+
+.image-div {
+  width: 80%;
+  margin: auto;
+}
+
+.services-copy {
+  width: 80%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.arrows {
+  top: -260px;
+}
+
+.testimonial-container {
+  min-height: 100px; 
+}
+
+.quote-form {
+  flex-direction: column;
+}
+
+.quote-table {
+  width: 100%;
+}
+
+.form2 {
+  width: 100%;
+  height: 300px;
+}
   
   }
   
@@ -638,8 +838,12 @@ margin-top: 20px;
   /* MOBILE */
   @media (max-width: 576px) {
 
-    .top-section {
-      height: 300px;
+    .ll-logo {
+      width: 50%;
+    }
+
+    .main-buttons {
+      width: 70%;
     }
 
     .gallery-title {
@@ -650,13 +854,34 @@ margin-top: 20px;
       font-size: 2.5rem;
     }
   
-    .title {
-      margin-top: 100px;
+    .main-buttons-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .title h3 {
+      width: 80%;
+      margin: auto;
+    }
+
+    .image-div {
+      width: 90%;
+    }
+
+    .services-copy {
+      width: 90%;
     }
   
     .about-card {
       max-width: 540px;
-      margin: 40px 10%;
+      margin: 20px 0;
+    }
+
+    .about-image-holder {
+      width: 95%;
+      margin: 20px auto 0;
     }
   
     .contact-info {
@@ -670,6 +895,14 @@ margin-top: 20px;
   
     .contact-content {
       margin: 0;
+    }
+
+    .testimonial-container {
+      min-height: 180px;
+
+    }
+    .testimonial p {
+    margin: 18px 10px 18px 10px;
     }
   
     .map {
