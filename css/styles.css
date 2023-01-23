@@ -427,6 +427,14 @@ margin-top: 18px;
   justify-content: space-around;
 }
 
+.quote-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 95%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+
 .form2 {
   width: 50%;
 }
@@ -487,8 +495,10 @@ margin-top: 18px;
     color: white;
   }
   
-  .contact-title {
-    margin-bottom: 50px;
+  .bold-p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: auto;
   }
   
   .service-list {
@@ -845,6 +855,10 @@ margin-top: 20px;
 
 .quote-table {
   width: 100%;
+}
+
+.quote-text {
+  width: 90%;;
 }
 
 .form2 {
