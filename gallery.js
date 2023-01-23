@@ -1,5 +1,7 @@
 
-
+function goToPage() {
+  window.location.href = "https://pythonlewish.github.io/Website-files/index.html#contact";
+}
 
 // Creates a new div called lightbox with an id of lightbox and appends it to the body of the doc
 const lightbox = document.createElement('div')
