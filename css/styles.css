@@ -174,7 +174,7 @@ color: #3f5459;
   }
 
   .ll-logo {
-    width: 20%;
+    width: 25%;
   }
 
   .thank-you-div {
@@ -397,12 +397,10 @@ margin-top: 18px;
   
   .clients1 {
     height: fit-content;
-    text-align: right;
   }
 
   .clients2 {
     height: fit-content;
-    text-align: left;
   }
 
 
@@ -666,7 +664,7 @@ margin-top: 20px;
   @media (max-width: 991px) {
 
     .ll-logo {
-      width: 30%;
+      width: 40%;
     }
 
     .navbar-icon-1 {
@@ -875,7 +873,7 @@ margin-top: 20px;
 
 
     .ll-logo {
-      width: 50%;
+      width: 60%;
     }
 
     .main-buttons {
