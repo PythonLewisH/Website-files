@@ -29,7 +29,7 @@ body {
   }
 
   h4 {
-    color: #3f5459;
+    color: #28773c;
     font-size: 1.2rem;
   }
   
@@ -53,6 +53,10 @@ body {
     padding: 0;
     display: flex;
   }
+
+  .nav-title {
+display: none;
+  }
   
   .nav-item {
     padding: 8px 18px;
@@ -69,12 +73,12 @@ body {
   }
   
   .navbar-dark .navbar-nav .nav-link {
-    color: inherit;
+    color:#28773c;
     font-size: inherit;
   }
   
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: inherit;
+    color:#28773c;
   }
   
   .mail-image {
@@ -88,7 +92,7 @@ body {
   }
   
   .navbar-icon-1 {
-    color: #3f5459;
+    color: #28773c;
     font-size: 1.5rem;
     padding-right: 25px;
   }
@@ -98,30 +102,30 @@ body {
   }
 
   .navbar-icon-tel {
-    color: #3f5459;
+    color: #28773c;
     font-size: 1.5rem;
     padding-right: 25px;
   }
 
   .navbar-icon-tel:hover {
-    color: #3f5459;
+    color: #28773c;
     text-decoration: none;
   }
 
   .navbar-icon-tel1 {
     display: none;
-    color: #3f5459;
+    color: #28773c;
     font-size: 1.5rem;
     padding-right: 25px;
   }
 
   .navbar-icon-tel1:hover {
-    color: #3f5459;
+    color: #28773c;
     text-decoration: none;
   }
 
   .navbar-icon-1:hover {
-color: #3f5459;
+color: #28773c;
   }
   
   .navbar-icon-2 {
@@ -136,12 +140,17 @@ color: #3f5459;
     vertical-align: text-bottom;
   }
   
+  /* .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  } */
+
   .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(40, 119, 60)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
   
+  
   .navbar-dark .navbar-toggler {
-    border-color: rgb(0, 0, 0);
+    border-color:#28773c;
     margin: 10px;
   }
   
@@ -151,7 +160,7 @@ color: #3f5459;
     background: white;
     width: 100%;
     z-index: 1;
-    border-bottom: #3f5459 3px solid;
+    border-bottom: #28773c 3px solid;
   }
 
   .navbar-logo {
@@ -213,8 +222,8 @@ color: #3f5459;
 
 .main-buttons:hover {
   background-color:white;
-  color: #3f5459;
-  border: 1px solid #3f5459;
+  color: #28773c;
+  border: 1px solid #28773c;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -223,7 +232,7 @@ color: #3f5459;
 }
 
 .main-buttons:hover i{
-color: #3f5459;
+color: #28773c;
 }
 
 .main-buttons a {
@@ -236,7 +245,7 @@ color: #3f5459;
 
 
 .main-buttons:active {
-  background-color: #3f5459;
+  background-color: #28773c;
   color: white;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(2px);
@@ -256,12 +265,29 @@ color: #3f5459;
     justify-content: center;
 }
 
+.services-copy-center {
+  width: 50%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
 .services-copy p {
   text-align: justify;
 }
 
+.blurb {
+  margin: 0 auto 50px;
+  width: 92%;
+  text-align: justify;
+}
+
 .lukes-services h3{
-color: black;
+color:#28773c;
 }
 
 .lukes-services {
@@ -274,7 +300,7 @@ color: black;
   }
 
   .lukes-services-rev h3{
-    color: black;
+    color:#28773c;
     }
 
 .services-image {
@@ -284,7 +310,9 @@ color: black;
 }
 
 .image-div {
-  width:50%;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
   
   /* ABOUT */
@@ -320,13 +348,13 @@ color: black;
   }
   
   .card-title {
-    color: #3f5459;
+    color: #28773c;
     margin-bottom: 2rem;
   }
   
   .card-text {
     text-align: justify;
-    color: #3f5459;
+    color: #28773c;
   }
   
   
@@ -370,7 +398,7 @@ margin-top: 18px;
     top: 220px;
   }
   .arrow {
-    color: #3f5459;
+    color: #28773c;
     font-size: 3rem;
     border-radius: 50%;
     cursor: pointer;
@@ -413,7 +441,7 @@ margin-top: 18px;
   }
   
   .dark-title {
-    color: #3f5459;
+    color: #28773c;
   }
   
   
@@ -426,12 +454,21 @@ margin-top: 18px;
 }
 
 .quote-text {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
   width: 95%;
   margin: auto;
   border-radius: 15px;
   padding: 10px;
 }
+
+.quote-text p {
+  color: #28773c;
+}
+
+.quote-text label {
+  color: #28773c;
+}
+
 
 .form2 {
   width: 50%;
@@ -450,13 +487,13 @@ margin-top: 18px;
   height: 90%;
   Width: 90%;
   border-radius: 15px;
-  border: none;
+  border: 1px solid #28773c;
   padding: 10px;
   margin: 10px;
 }
 
 .attach-button {
-  background-color:#3f5459;
+  background-color:#28773c;
   color: white;
   padding: 12px 10px;
   border: none;
@@ -472,16 +509,18 @@ margin-top: 18px;
 .file-input {
   margin: auto;
   padding-left: 10%;
+  color: #28773c;
+  margin-bottom: 25px;
 }
 
 .lukes-button {
-  background-color:#3f5459;
+  background-color:#28773c;
   color: white;
   padding: 12px 10px;
   border: none;
   border-radius: 15px;
   cursor: pointer;
-  /* border: 1px solid white; */
+  border: 1px solid white;
   margin: 20px;
   width: 60%;
   font-size: 1.1rem;
@@ -491,13 +530,13 @@ margin-top: 18px;
 
 .lukes-button:hover {
   background-color:white;
-  color: #3f5459;
-  /* border: 1px solid #3f5459; */
+  color: #28773c;
+  border: 1px solid #28773c;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .lukes-button:active {
-  background-color: #3f5459;
+  background-color: #28773c;
   color: white;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(2px);
@@ -539,7 +578,7 @@ margin-top: 18px;
   
   .hover-text:hover {
     text-decoration: underline;
-    color: #3f5459;
+    color: #28773c;
   }
   
   .map {
@@ -561,7 +600,7 @@ margin-top: 18px;
   /* Footer */
   
   .footer-icon {
-    color: #3f5459;
+    color: #28773c;
     font-size: 2rem;
     margin: 25px 25px 10px 25px;
   }
@@ -572,6 +611,10 @@ margin-top: 18px;
 
   .footer-note {
 margin-top: 20px;
+  }
+
+  .footer-info p {
+    color: #28773c;
   }
   
   /* GALLERY PAGE */
@@ -684,6 +727,15 @@ margin-top: 20px;
 
     .ll-logo {
       width: 40%;
+    }
+
+    .nav-title{
+      display: block;
+      position: absolute;
+      left: 20px;
+      top: 11px;
+      color: #28773c;
+      font-size: 1.5rem;
     }
 
     .navbar-icon-1 {
@@ -858,6 +910,10 @@ margin-top: 20px;
   margin: auto;
 }
 
+.services-copy-center {
+  width: 100%;
+}
+
 .arrows {
   top: 220px;
 }
@@ -886,6 +942,10 @@ margin-top: 20px;
   /* MOBILE */
   @media (max-width: 576px) {
 
+    .nav-title{
+      font-size: 1.2rem;
+      top: 16px;
+    }
 
     .ll-logo {
       width: 60%;
@@ -921,6 +981,10 @@ margin-top: 20px;
 
     .services-copy {
       width: 90%;
+    }
+
+    .services-copy-center{
+      width: 100%;
     }
   
     .about-card {
