@@ -1,3 +1,14 @@
+html, body {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 body {
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -345,6 +356,7 @@ color:#28773c;
   
   .about-img {
     padding: 10px;
+    width: 30%;
   }
   
   .card-title {
@@ -747,6 +759,10 @@ margin-top: 20px;
   /*  TABLET */
   @media (max-width: 991px) {
 
+    .about-img {
+      width: 40%;
+    }
+
     .ll-logo {
       width: 40%;
     }
@@ -892,6 +908,10 @@ margin-top: 20px;
   
   
   @media (max-width: 767px) {
+    .about-img {
+      width: 70%;
+    }
+
 
     .top-section {
       height: 720px;

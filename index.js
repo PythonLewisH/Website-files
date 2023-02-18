@@ -54,6 +54,7 @@ arrows[1].addEventListener("click", function() {
 
 startSlide();
 
+document.cookie = "cookie_name=cookie_value;path=/;SameSite=None;expires=Tue, 01 Jan 2030 00:00:00 UTC;";
 
 
 // // Creates a new div called lightbox with an id of lightbox and appends it to the body of the doc
