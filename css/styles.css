@@ -1,5 +1,6 @@
 html, body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 * {
@@ -40,7 +41,7 @@ body {
   }
 
   h4 {
-    color: #28773c;
+    color: BLACK;
     font-size: 1.2rem;
   }
   
@@ -84,12 +85,12 @@ display: none;
   }
   
   .navbar-dark .navbar-nav .nav-link {
-    color:#28773c;
+    color:BLACK;
     font-size: inherit;
   }
   
   .navbar-dark .navbar-nav .nav-link:hover {
-    color:#28773c;
+    color:BLACK;
   }
   
   .mail-image {
@@ -103,7 +104,7 @@ display: none;
   }
   
   .navbar-icon-1 {
-    color: #28773c;
+    color: BLACK;
     font-size: 1.5rem;
     padding-right: 25px;
   }
@@ -113,30 +114,30 @@ display: none;
   }
 
   .navbar-icon-tel {
-    color: #28773c;
+    color: BLACK;
     font-size: 1.5rem;
     padding-right: 25px;
   }
 
   .navbar-icon-tel:hover {
-    color: #28773c;
+    color: BLACK;
     text-decoration: none;
   }
 
   .navbar-icon-tel1 {
     display: none;
-    color: #28773c;
+    color: BLACK;
     font-size: 1.5rem;
     padding-right: 25px;
   }
 
   .navbar-icon-tel1:hover {
-    color: #28773c;
+    color: BLACK;
     text-decoration: none;
   }
 
   .navbar-icon-1:hover {
-color: #28773c;
+color: BLACK;
   }
   
   .navbar-icon-2 {
@@ -161,7 +162,7 @@ color: #28773c;
   
   
   .navbar-dark .navbar-toggler {
-    border-color:#28773c;
+    border-color:BLACK;
     margin: 10px;
   }
   
@@ -171,7 +172,7 @@ color: #28773c;
     background: white;
     width: 100%;
     z-index: 1;
-    border-bottom: #28773c 3px solid;
+    border-bottom: BLACK 3px solid;
   }
 
   .navbar-logo {
@@ -181,7 +182,7 @@ color: #28773c;
   
   /* TOP SECTION */
   .top-section {
-    background-image: url("../assets/lawn.jpg");
+    background-image: url("../assets/gallery/GreenHeath/vents.jpg");
     background-size: 2000px;
     height: 630px;
     display: flex;
@@ -190,7 +191,12 @@ color: #28773c;
   }
 
   .ll-logo {
-    width: 25%;
+    width: 15%;
+    margin-top: 5%;
+  }
+
+  .green {
+    color: #1A7F0C;
   }
 
   .thank-you-div {
@@ -216,8 +222,8 @@ color: #28773c;
 }
 
 .main-buttons {
-  background-color:transparent;
-  color: white;
+  background-color:white;
+  color: BLACK;
   padding: 12px 10px;
   border: none;
   border-radius: 15px;
@@ -233,17 +239,18 @@ color: #28773c;
 
 .main-buttons:hover {
   background-color:white;
-  color: #28773c;
-  border: 1px solid #28773c;
+  color: BLACK;
+  border: 1px solid BLACK;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .main-buttons i {
   transition: all 0.2s ease-in-out;
+  color: BLACK;
 }
 
 .main-buttons:hover i{
-color: #28773c;
+color: BLACK;
 }
 
 .main-buttons a {
@@ -256,7 +263,7 @@ color: #28773c;
 
 
 .main-buttons:active {
-  background-color: #28773c;
+  background-color: BLACK;
   color: white;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(2px);
@@ -298,7 +305,7 @@ color: #28773c;
 }
 
 .lukes-services h3{
-color:#28773c;
+color:BLACK;
 }
 
 .lukes-services {
@@ -311,7 +318,7 @@ color:#28773c;
   }
 
   .lukes-services-rev h3{
-    color:#28773c;
+    color:BLACK;
     }
 
 .services-image {
@@ -328,7 +335,7 @@ color:#28773c;
   
   /* ABOUT */
   .about {
-    background-image: url("../assets/grass.jpg");
+    background-image: url("../assets/gallery/GreenHeath/vents.jpg");
     background-size: cover;
   }
   
@@ -360,12 +367,12 @@ color:#28773c;
   }
   
   .card-title {
-    color: #28773c;
+    color: BLACK;
     margin-bottom: 2rem;
   }
   
   .card-text {
-    text-align: justify;
+    text-align: center;
   }
   
   
@@ -409,7 +416,7 @@ margin-top: 18px;
     top: 220px;
   }
   .arrow {
-    color: #28773c;
+    color: BLACK;
     font-size: 3rem;
     border-radius: 50%;
     cursor: pointer;
@@ -452,7 +459,7 @@ margin-top: 18px;
   }
   
   .dark-title {
-    color: #28773c;
+    color: BLACK;
   }
   
   
@@ -473,11 +480,11 @@ margin-top: 18px;
 }
 
 .quote-text p {
-  color: #28773c;
+  color: BLACK;
 }
 
 .quote-text label {
-  color: #28773c;
+  color: BLACK;
 }
 
 
@@ -498,13 +505,13 @@ margin-top: 18px;
   height: 90%;
   Width: 90%;
   border-radius: 15px;
-  border: 1px solid #28773c;
+  border: 1px solid BLACK;
   padding: 10px;
   margin: 10px;
 }
 
 .attach-button {
-  background-color:#28773c;
+  background-color:BLACK;
   color: white;
   padding: 12px 10px;
   border: none;
@@ -520,12 +527,12 @@ margin-top: 18px;
 .file-input {
   margin: auto;
   padding-left: 10%;
-  color: #28773c;
+  color: BLACK;
   margin-bottom: 25px;
 }
 
 .lukes-button {
-  background-color:#28773c;
+  background-color:BLACK;
   color: white;
   padding: 12px 10px;
   border: none;
@@ -541,13 +548,13 @@ margin-top: 18px;
 
 .lukes-button:hover {
   background-color:white;
-  color: #28773c;
-  border: 1px solid #28773c;
+  color: BLACK;
+  border: 1px solid BLACK;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .lukes-button:active {
-  background-color: #28773c;
+  background-color: BLACK;
   color: white;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(2px);
@@ -557,7 +564,7 @@ margin-top: 18px;
 
   
   .contact-section {
-    background-image: url("../assets/grass.jpg");
+    background-image: url("../assets/gallery/GreenHeath/vents.jpg");
     background-size: cover;
     color: white;
   }
@@ -589,7 +596,7 @@ margin-top: 18px;
   
   .hover-text:hover {
     text-decoration: underline;
-    color: #28773c;
+    color: BLACK;
   }
   
   .map {
@@ -616,7 +623,7 @@ margin-top: 18px;
   }
   
   .footer-icon {
-    color: #28773c;
+    color: BLACK;
     font-size: 2rem;
     margin: 25px 25px 10px 25px;
   }
@@ -630,7 +637,7 @@ margin-top: 20px;
   }
 
   .footer-info p {
-    color: #28773c;
+    color: BLACK;
   }
   
   /* GALLERY PAGE */
@@ -647,7 +654,7 @@ margin-top: 20px;
   }
 
   .beforeandafter h3 {
-    color: #28773c
+    color: BLACK
   }
   
   .image-container {
@@ -764,7 +771,8 @@ margin-top: 20px;
     }
 
     .ll-logo {
-      width: 40%;
+      width: 25%;
+      margin-top: 0;
     }
 
     .nav-title{
@@ -772,7 +780,7 @@ margin-top: 20px;
       position: absolute;
       left: 20px;
       top: 11px;
-      color: #28773c;
+      color: BLACK;
       font-size: 1.5rem;
     }
 
@@ -928,6 +936,7 @@ margin-top: 20px;
 
     .ll-logo {
       margin-bottom: 25px;
+      margin-top: 0;
     }
 
 .lukes-services {
@@ -995,7 +1004,8 @@ margin-top: 20px;
     }
 
     .ll-logo {
-      width: 60%;
+      width: 50%;
+      margin-top: 0;
     }
 
     .main-buttons {
@@ -1089,6 +1099,12 @@ margin-top: 20px;
     }
   
   
+  }
+
+  @media (max-width: 400px) {
+.navbar-icon-1 {
+  font-size: 1.3rem;
+}
   }
   
   /* Fix for firefox (Price list) */
