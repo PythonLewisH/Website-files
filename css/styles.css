@@ -199,6 +199,11 @@ color: BLACK;
     color: #1A7F0C;
   }
 
+  .black {
+    margin-top: 60px;
+    color: black;
+  }
+
   .thank-you-div {
     margin: 20px auto;
     width: 50%;
@@ -643,9 +648,7 @@ margin-top: 20px;
   /* GALLERY PAGE */
   
   .gallery {
-    /* column-count: 2;
-    column-gap: 50px; */
-    display: contents;
+    column-count: 4;
   }
 
   .beforeandafter {
@@ -658,32 +661,29 @@ margin-top: 20px;
   }
   
   .image-container {
-    /* position: relative;
-    overflow: hidden;
-    margin: 0 0 50px;
-    border-radius: 15px; */
-
+    position: relative;
+    margin-bottom: 20px;
+/* 
     float: left;
     width: 40%;
     position: relative;
     overflow: hidden;
     margin: 0 5% 50px;
     border-radius: 15px;
-    max-height: 600px;
+    max-height: 600px; */
   }
   
   .gallery-img {
-    max-width: 100% !important;
-    max-height: auto !important;
+    width: 100% !important;
+    height: auto !important;
     cursor: pointer;
-    /* border: 15px solid white; */
-    overflow: hidden;
+    border: 3px solid white;
   }
 
-  .gallery-img:hover {
+  /* .gallery-img:hover {
   transition: transform 1s ease;
   transform: scale(1.2);
-  }
+  } */
   
   #lightbox {
     position: fixed;
