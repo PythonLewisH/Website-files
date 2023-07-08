@@ -327,7 +327,7 @@ color:BLACK;
     }
 
 .services-image {
-  width: 100%;
+  width: 80%;
   padding: 25px;
   border-radius: 50px;
 }
@@ -336,6 +336,7 @@ color:BLACK;
   width: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
   
   /* ABOUT */
