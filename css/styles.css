@@ -109,9 +109,6 @@ display: none;
     padding-right: 25px;
   }
 
-  .navbar-phone {
-
-  }
 
   .navbar-icon-tel {
     color: #106f43;
@@ -313,7 +310,7 @@ color: BLACK;
 }
 
 .lukes-services h3{
-color:BLACK;
+color:#106f43;
 }
 
 .lukes-services {
@@ -326,7 +323,7 @@ color:BLACK;
   }
 
   .lukes-services-rev h3{
-    color:BLACK;
+    color:#106f43;
     }
 
 .services-image {
