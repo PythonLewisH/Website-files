@@ -159,7 +159,7 @@ color: #049634;
   
   
   .navbar-dark .navbar-toggler {
-    border-color:BLACK;
+    border-color: #106f43;
     margin: 10px;
   }
   
@@ -201,7 +201,7 @@ color: #049634;
 
   .black {
     margin-top: 60px;
-    color: black;
+    color: #106f43;
   }
 
   .thank-you-div {
@@ -327,7 +327,7 @@ color:#106f43;
     }
 
 .services-image {
-  width: 80%;
+  width: 100%;
   padding: 25px;
   border-radius: 50px;
 }
@@ -348,8 +348,13 @@ color:#106f43;
   .about-card {
     max-width: 1200px;
     margin: 40px auto;
+    border-radius: 15px;
   }
   
+  .card-body-main {
+    flex: 1 1 auto;
+    padding: 0 1rem 1rem;
+  }
   .about-pic {
     display: flex;
     align-items: center;
@@ -367,8 +372,7 @@ color:#106f43;
     margin: auto;
   }
   
-  .about-img {
-    padding: 10px;
+  .about-img {  
     width: 30%;
   }
   
@@ -456,7 +460,7 @@ margin-top: 18px;
   }
 
 
-  .testimonial-photo {
+  .client-photo {
     height: 35%;
     width: 35%;
     aspect-ratio: 3/2;
@@ -781,7 +785,7 @@ margin-top: 20px;
       position: absolute;
       left: 20px;
       top: 11px;
-      color: BLACK;
+      color: #106f43;
       font-size: 1.5rem;
     }
 
@@ -845,7 +849,7 @@ margin-top: 20px;
 
 
     
-    .testimonial-photo {
+    .client-photo {
       margin-bottom: 0;
       aspect-ratio: 3/2;
       object-fit: contain;
@@ -1007,6 +1011,10 @@ margin-top: 20px;
     .ll-logo {
       width: 50%;
       margin-top: 0;
+    }
+
+    .title {
+        padding-bottom: 200px;
     }
 
     .main-buttons {
