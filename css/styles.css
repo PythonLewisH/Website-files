@@ -41,7 +41,7 @@ body {
   }
 
   h4 {
-    color: BLACK;
+    color: #106f43;
     font-size: 1.2rem;
   }
   
@@ -422,7 +422,7 @@ margin-top: 18px;
     top: 220px;
   }
   .arrow {
-    color: BLACK;
+    color: #106f43;
     font-size: 3rem;
     border-radius: 50%;
     cursor: pointer;
@@ -629,7 +629,7 @@ margin-top: 18px;
   }
   
   .footer-icon {
-    color: BLACK;
+    color: #106f43;
     font-size: 2rem;
     margin: 25px 25px 10px 25px;
   }
