@@ -36,12 +36,12 @@ body {
   }
   
   h3 {
-    color: white;
+    color: #106f43;
     font-size: 1.25rem;
   }
 
   h4 {
-    color: BLACK;
+    color: #106f43;
     font-size: 1.2rem;
   }
   
@@ -85,12 +85,12 @@ display: none;
   }
   
   .navbar-dark .navbar-nav .nav-link {
-    color:BLACK;
+    color:#106f43;
     font-size: inherit;
   }
   
   .navbar-dark .navbar-nav .nav-link:hover {
-    color:BLACK;
+    color:#049634;
   }
   
   .mail-image {
@@ -104,23 +104,20 @@ display: none;
   }
   
   .navbar-icon-1 {
-    color: BLACK;
+    color:#106f43;
     font-size: 1.5rem;
     padding-right: 25px;
   }
 
-  .navbar-phone {
-
-  }
 
   .navbar-icon-tel {
-    color: BLACK;
+    color: #106f43;
     font-size: 1.5rem;
     padding-right: 25px;
   }
 
   .navbar-icon-tel:hover {
-    color: BLACK;
+    color: #049634;
     text-decoration: none;
   }
 
@@ -137,7 +134,7 @@ display: none;
   }
 
   .navbar-icon-1:hover {
-color: BLACK;
+color: #049634;
   }
   
   .navbar-icon-2 {
@@ -172,7 +169,7 @@ color: BLACK;
     background: white;
     width: 100%;
     z-index: 1;
-    border-bottom: BLACK 3px solid;
+    border-bottom: #106f43 3px solid;
   }
 
   .navbar-logo {
@@ -182,7 +179,7 @@ color: BLACK;
   
   /* TOP SECTION */
   .top-section {
-    background-image: url("../assets/gallery/GreenHeath/vents.jpg");
+    background-image: url("../assets/greenheathbanner.png");
     background-size: 2000px;
     height: 630px;
     display: flex;
@@ -191,8 +188,11 @@ color: BLACK;
   }
 
   .ll-logo {
-    width: 15%;
-    margin-top: 5%;
+    width: 25%;
+  }
+
+  .title {
+    padding-bottom: 90px;
   }
 
   .green {
@@ -310,7 +310,7 @@ color: BLACK;
 }
 
 .lukes-services h3{
-color:BLACK;
+color:#106f43;
 }
 
 .lukes-services {
@@ -323,7 +323,7 @@ color:BLACK;
   }
 
   .lukes-services-rev h3{
-    color:BLACK;
+    color:#106f43;
     }
 
 .services-image {
@@ -341,7 +341,7 @@ color:BLACK;
   
   /* ABOUT */
   .about {
-    background-image: url("../assets/gallery/GreenHeath/vents.jpg");
+    background-image: url("../assets/greenheathbanner.png");
     background-size: cover;
   }
   
@@ -422,7 +422,7 @@ margin-top: 18px;
     top: 220px;
   }
   .arrow {
-    color: BLACK;
+    color: #106f43;
     font-size: 3rem;
     border-radius: 50%;
     cursor: pointer;
@@ -465,7 +465,7 @@ margin-top: 18px;
   }
   
   .dark-title {
-    color: BLACK;
+    color: #106f43;
   }
   
   
@@ -570,7 +570,7 @@ margin-top: 18px;
 
   
   .contact-section {
-    background-image: url("../assets/gallery/GreenHeath/vents.jpg");
+    background-image: url("../assets/greenheathbanner.png");
     background-size: cover;
     color: white;
   }
@@ -629,7 +629,7 @@ margin-top: 18px;
   }
   
   .footer-icon {
-    color: BLACK;
+    color: #106f43;
     font-size: 2rem;
     margin: 25px 25px 10px 25px;
   }
