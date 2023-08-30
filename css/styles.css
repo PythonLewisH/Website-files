@@ -195,6 +195,10 @@ color: #049634;
     padding-bottom: 90px;
   }
 
+  .title h3 {
+    margin-top: 40px;
+  }
+
   .green {
     color: #1A7F0C;
   }
@@ -353,7 +357,7 @@ color:#106f43;
   
   .card-body-main {
     flex: 1 1 auto;
-    padding: 0 1rem 1rem;
+    padding: 1rem;
   }
   .about-pic {
     display: flex;
@@ -637,6 +641,10 @@ margin-top: 18px;
     font-size: 2rem;
     margin: 25px 25px 10px 25px;
   }
+
+  .footer-icon:hover {
+    color: #049634;
+  }
   
   .website-design {
     font-size: .8rem;
@@ -787,6 +795,7 @@ margin-top: 20px;
       top: 11px;
       color: #106f43;
       font-size: 1.5rem;
+      height: 40px;
     }
 
     .navbar-icon-1 {
@@ -1005,7 +1014,6 @@ margin-top: 20px;
 
     .nav-title{
       font-size: 1.2rem;
-      top: 16px;
     }
 
     .ll-logo {
