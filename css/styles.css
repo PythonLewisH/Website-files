@@ -353,6 +353,7 @@ color:#106f43;
     max-width: 1200px;
     margin: 40px auto;
     border-radius: 15px;
+    border-radius: 15px;
   }
   
   .card-body-main {
@@ -1019,6 +1020,10 @@ margin-top: 20px;
     .ll-logo {
       width: 50%;
       margin-top: 0;
+    }
+
+    .title {
+        padding-bottom: 200px;
     }
 
     .title {
